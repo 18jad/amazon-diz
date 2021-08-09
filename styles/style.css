@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.product-section-banner{
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Hero/Fuji_TallHero_45M_v2_1x._CB432458380_.jpg");
+    background-size: cover;
+}
+.main-section-products{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.icon-gift:hover,
+.icon-bulb:hover,
+.icon-music:hover,
+.icon-house:hover,
+.icon-camera:hover,
+.icon-book:hover,
+.icon-mobile:hover,
+.icon-desktop:hover,
+.banner-button:hover,
+.add-to-cart:hover{
+   transform: scale(1.06);
+}
+.icon-gift:active,
+.icon-bulb:active,
+.icon-music:active,
+.icon-house:active,
+.icon-camera:active,
+.icon-book:active,
+.icon-mobile:active,
+.icon-desktop:active,
+.banner-button:active,
+.add-to-cart:active{
+    transform: scale(.95);
+ }
+ .cart-item:hover{
+    transform: scale(1.02);
+ }
+.banner-button{
+    font-family: 'Georama', sans-serif;
+}
+.user-profile{
+    border: 1px white solid;
+    box-shadow: 0px 0px 5px rgb(255, 169, 8);
+}
+.search-bar{
+    box-shadow: 0 1px 6px rgba(31, 31, 31, 0.28);
+    border-color: rgba(223, 225, 229, 0.166);
+    font-family: 'Montserrat', sans-serif;
+}
+option{
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 1px 6px rgba(31, 31, 31, 0.28);
+    border-color: rgba(223, 225, 229, 0.166);
+}
+select{
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 1px 6px rgba(31, 31, 31, 0.28);
+}
